@@ -1,5 +1,9 @@
+def saludo(nombre: str = "mundo") -> str:
+    return f"¡Hola, {nombre} desde Python!"
+
 def main():
-    print("¡Hola, mundo desde Python!")
+    mensaje = saludo("Elizabeth")
+    print(mensaje)
 
 if __name__ == "__main__":
     main()
